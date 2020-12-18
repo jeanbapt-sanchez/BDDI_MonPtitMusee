@@ -45,7 +45,7 @@ const SceneLivre = (props) => {
             setGestureIsDisplay(true)
             shakeRef.current.style.opacity = 1
             runSecousse()
-        }, 2000)
+        }, 25000)
         // window.addEventListener('scroll', noScroll);
     }, [])
 
