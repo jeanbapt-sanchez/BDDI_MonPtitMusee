@@ -1,0 +1,40 @@
+.body > *{
+    position: absolute;
+    transition: all .7s ease-in-out;
+    overflow: hidden;
+}
+
+/* .body-sceneLivre{
+    background: url('../../../assets/img/01_Image/sol_et_fond.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.body-sceneLivre:after{
+    content: 'coucou';
+    position: absolute;
+    transform-origin: top left;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+} */
+
+.disa {
+    z-index: 1000;
+}
+
+.anim {
+    z-index: 1001;
+}
+
+.visage{
+    width: 50%
+}
+
+.cadre {
+    -webkit-box-shadow: -1px -19px 32px 6px rgba(0,0,0,0.33);
+    -moz-box-shadow: -1px -19px 32px 6px rgba(0,0,0,0.33);
+    box-shadow: -1px -19px 32px 6px rgba(0,0,0,0.33);
+}
